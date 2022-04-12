@@ -12,7 +12,7 @@
             <div class= "portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                 <div class= "portfolio-item-caption-content text-center text"> --}}
 
-        <img class="card-img-top" src=" {{ $proyecto->imagen }}" alt="tech picture" />
+        <img class="card-img-top" style="height: 175px" src=" {{ $proyecto->imagen }}" alt="tech picture" />
 
         <!-- Product details-->
     <div class="card-body p-4">
