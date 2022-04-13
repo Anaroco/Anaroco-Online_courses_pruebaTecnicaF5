@@ -6,12 +6,12 @@ use Illuminate\Http\Request;
 
 class CursoController extends Controller
 {
-    //
+   
     public function index()
     {
         $proyectos = Proyecto::paginate();
 
         return view('welcome', compact('proyectos'));
-            // ->with('i', (request()->input('page', 1) - 1) * $proyectos->perPage());
+          
     }
 }

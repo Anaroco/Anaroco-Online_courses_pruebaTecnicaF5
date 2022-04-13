@@ -7,10 +7,7 @@
 <div class="col mb-5">
   <div class="card h-100">
 
-        <!-- Product image-->
-        {{-- <div class= "portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal {{ $proyecto->id }}">
-            <div class= "portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                <div class= "portfolio-item-caption-content text-center text"> --}}
+      
 
         <img class="card-img-top" style="height: 175px" src=" {{ $proyecto->imagen }}" alt="tech picture" />
 
